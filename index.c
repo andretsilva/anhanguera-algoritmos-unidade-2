@@ -13,13 +13,13 @@ resultado final da soma
 #include <stdio.h>
 
 int main() {
-    int num, soma = 0;
-
-    do {
+    int num = -1, soma = 0;
+    
+    while(num != 0) {
         printf("Digite um número inteiro: ");
         scanf("%d", &num);
         soma += num;
-    } while (num != 0);
+    }
 
     printf("A soma dos números inseridos é: %d\n", soma);
 
